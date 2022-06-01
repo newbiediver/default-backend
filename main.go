@@ -27,6 +27,7 @@ func initWebService() {
 	port := ":8000"
 
 	server.StaticFile("/", "web/404.html")
+	server.StaticFile("/css/style.css", "web/css/style.css")
 	go func() {
 		fmt.Printf("[System] Starting web service. port%s", port)
 		if err := http.ListenAndServe(port, server); err != nil && err != http.ErrServerClosed {

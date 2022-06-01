@@ -4,6 +4,8 @@
 *.dll
 *.so
 *.dylib
+default-backend
+default-backend.exe
 
 # Test binary, built with `go test -c`
 *.test
