@@ -1,5 +1,5 @@
 # Default Backend of Ingress in Kubernetes
-[![Build](https://github.com/newbiediver/default-backend/actions/workflows/build.yml/badge.svg)](https://github.com/newbiediver/default-backend/actions/workflows/build.yml)
+[![Build](https://github.com/newbiediver/default-backend/actions/workflows/build.yml/badge.svg?branch=build)](https://github.com/newbiediver/default-backend/actions/workflows/build.yml)
 ## 1. Summary
 * 초 심플한 404 page 를 위한 웹 서비스
 * Ingress 호출에 대해 404 page 를 대체하기 위한 Default Backend
