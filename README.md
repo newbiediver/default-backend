@@ -4,7 +4,10 @@
 * Ingress 호출에 대해 404 page 를 대체하기 위한 Default Backend
 * 특별한 옵션 및 환경설정 없이 있는 그대로 사용 가능
 
-## 2. Usage
+## 2. Screenshot
+![](screenshot/screenshot.png)
+
+## 3. Usage
 * Deployment
 ```yaml
 apiVersion: apps/v1
@@ -71,6 +74,6 @@ spec:
             port: 
               number: 80
 ```
-## 3. External Dependencies
+## 4. External Dependencies
 * [gin-gonic/gin](https://github.com/gin-gonic/gin)
 * [HTML Template by Colorlib](https://colorlib.com/)
