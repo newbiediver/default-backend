@@ -1,10 +1,10 @@
-name: Build Default Backend
+name: Build
 on:
   push:
-    branches: [ main ]
+    branches: [ build ]
   workflow_dispatch:
 jobs:
-  docker:
+  CI:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
